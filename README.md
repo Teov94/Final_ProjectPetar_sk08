@@ -4,14 +4,14 @@ Included tests:
 1. Comment picture
 Steps:
 - Open site URL
-- Click on the login button and log in 
+- Click on the login button and login 
 - Open the first picture in the home page feed
 - Comment on the picture
 
 2. Delete Picture
 Steps:
 - Open site URL
-- Click on the login button and log in
+- Click on the login button and login
 - Click on the profile button
 - Count current posts
 - Click on a picture
@@ -22,32 +22,32 @@ Steps:
 3. Follow User
 Steps:
 - Open site URL
-- Click on the login button and log in
+- Click on the login button and login
 - Press follow button on the first user in the home page feed
 - Verify that you followed the user
 
 4. Logout
 Steps:
 - Open site URL
-- Click on the login button and log in
+- Click on the login button and login
 - Click on the logout button
 
 5. New Post
 Steps:
 - Open site URL
-- Click on the login button and log in
-- Go to the profile page and get current post count
+- Click on the login button and login
+- Go to the profile page and get the current post count
 - Go to the new post page
-- Upload new picture
+- Upload a new picture
 - Verify that the image is visible
 - Verify the image name is correct
 - Populate the post caption
-- Click create post
+- Click create a post
 - Verify the post number has increased
 - Open the latest post
 
 
-  
+  !! Note: I was not able to make the waits to work in the test case "NewPost" that's why I used the command Thread.sleep.
 
 
 
