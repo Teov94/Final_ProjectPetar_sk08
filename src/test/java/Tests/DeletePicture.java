@@ -33,7 +33,7 @@ public class DeletePicture extends BaseTestMethod {
         postModal.clickPic();
         System.out.println("6.Press delete Btn picture");
         profilePage.clickDelBtnPic();
-        System.out.println("7.Press YES to confirm deletion");
+        System.out.println("7.Press YES to confirm that picture is deleted");
         profilePage.confirmPicDeletion();
         profilePage.verifyUrl();
         System.out.println("8. Verify that number of pictures has decrease with one");
